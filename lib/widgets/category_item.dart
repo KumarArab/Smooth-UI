@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 class CategoryItem extends StatelessWidget {
-  IconData icon;
-  Color color;
-  String topic;
+  final IconData icon;
+  final Color color;
+  final String topic;
 
   CategoryItem({this.icon, this.color, this.topic});
 
